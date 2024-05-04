@@ -1,0 +1,13 @@
+.Admin {
+  display: flex;
+	.admin-sidebar{
+		width: 20%;
+		height: 100vh;
+		position: fixed;
+	}
+  .outlet{
+		margin-left: 20%;
+		width: 80%;
+		padding: 30px;
+	}
+}

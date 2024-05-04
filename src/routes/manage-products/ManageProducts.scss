@@ -1,0 +1,51 @@
+.admin-table {
+  form {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    input {
+      width: 85%;
+      padding: 8px 20px;
+      border-radius: 15px 0 0 15px;
+      font-size: 20px;
+      color: #46a358;
+      border: 2px solid #46a358;
+    }
+    button {
+      width: 15%;
+      border-radius: 0 15px 15px 0;
+      border: 1px solid #46a358;
+      padding: 10px 20px;
+      font-size: 20px;
+      color: white;
+      background: #46a358;
+    }
+  }
+
+  ul {
+    margin-top: 30px;
+    list-style: none;
+    display: grid;
+    gap: 8px;
+
+    li {
+      height: 80px;
+      padding: 8px;
+      display: flex;
+      background: rgb(169, 229, 169);
+    }
+  }
+}
+
+.title {
+  padding-bottom: 15px;
+  border-bottom: 1px solid green;
+  h1 {
+    color: #46a358;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

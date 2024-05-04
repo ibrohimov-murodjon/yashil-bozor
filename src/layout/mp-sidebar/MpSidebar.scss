@@ -1,0 +1,61 @@
+* {
+  font-family: Lora;
+}
+
+.aside {
+  width: 265px;
+  height: 500px;
+  flex-shrink: 0;
+  height: 3px;
+
+  .categories,
+  .size {
+    border-bottom: 2px solid #46a358;
+    padding: 25px;
+    background: #fbfbfb;
+  }
+
+  .price {
+    display: grid;
+    gap: 20px;
+    padding: 25px;
+    background: #fbfbfb;
+
+    h5 {
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+    }
+    button {
+      width: 90px;
+      height: 35px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      background: #46a358;
+      cursor: pointer;
+    }
+  }
+}
+
+ul {
+  list-style: none;
+  li {
+    display: flex;
+    justify-content: space-between;
+    color: #3d3d3d;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  li:hover {
+    color: #46a358;
+  }
+}
+
+.active {
+  color: #46a358;
+}

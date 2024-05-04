@@ -1,0 +1,25 @@
+.main-navbar {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  a{
+    color: var(--main-green-color);
+  }
+}
+
+.main-navbar__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  a {
+    color: var(--main-green-color);
+  }
+}
